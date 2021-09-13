@@ -1,0 +1,12 @@
+- install globally typescript in system:
+    sudo npm i -g typescript
+- file extensions can be ts or tsx
+- for compiling the ts file:
+    tsc index (filename without extension)
+    tsc --watch index (use watch for auto compile whenever file saved)
+    tsc (will compile all ts files in the folder)
+
+- make tsconfig.json file:
+    tsc --init
+
+- update tsconfig.json file for rootDir and outDir for resulted js file saving destinations
